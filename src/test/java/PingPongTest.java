@@ -10,4 +10,9 @@ public class PingPongTest {
     assertEquals(10, PingPong.add(6,4));
   }
 
+  @Test
+  public void runString(){
+    assertEquals("hello", PingPong.yoString());
+  }
+
 }
